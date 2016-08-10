@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5ABB051D5B82510019AF8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5ABB041D5B82510019AF8D /* AppDelegate.swift */; };
+		9C5ABB071D5B82510019AF8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5ABB061D5B82510019AF8D /* ViewController.swift */; };
+		9C5ABB091D5B82510019AF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5ABB081D5B82510019AF8D /* Assets.xcassets */; };
+		9C5ABB0C1D5B82510019AF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5ABB0A1D5B82510019AF8D /* Main.storyboard */; };
+		9C5ABB171D5B82520019AF8D /* SAS_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5ABB161D5B82520019AF8D /* SAS_ToolsTests.swift */; };
+		9C5ABB221D5B82520019AF8D /* SAS_ToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5ABB211D5B82520019AF8D /* SAS_ToolsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C5ABB131D5B82510019AF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5ABAF91D5B82510019AF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5ABB001D5B82510019AF8D;
+			remoteInfo = "SAS Tools";
+		};
+		9C5ABB1E1D5B82520019AF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5ABAF91D5B82510019AF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5ABB001D5B82510019AF8D;
+			remoteInfo = "SAS Tools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C5ABB011D5B82510019AF8D /* SAS Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SAS Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5ABB041D5B82510019AF8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C5ABB061D5B82510019AF8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C5ABB081D5B82510019AF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C5ABB0B1D5B82510019AF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C5ABB0D1D5B82510019AF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5ABB121D5B82510019AF8D /* SAS ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SAS ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5ABB161D5B82520019AF8D /* SAS_ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAS_ToolsTests.swift; sourceTree = "<group>"; };
+		9C5ABB181D5B82520019AF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5ABB1D1D5B82520019AF8D /* SAS ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SAS ToolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5ABB211D5B82520019AF8D /* SAS_ToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAS_ToolsUITests.swift; sourceTree = "<group>"; };
+		9C5ABB231D5B82520019AF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5ABAFE1D5B82510019AF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5ABB0F1D5B82510019AF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5ABB1A1D5B82520019AF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5ABAF81D5B82510019AF8D = {
+			isa = PBXGroup;
+			children = (
+				9C5ABB031D5B82510019AF8D /* SAS Tools */,
+				9C5ABB151D5B82510019AF8D /* SAS ToolsTests */,
+				9C5ABB201D5B82520019AF8D /* SAS ToolsUITests */,
+				9C5ABB021D5B82510019AF8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5ABB021D5B82510019AF8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5ABB011D5B82510019AF8D /* SAS Tools.app */,
+				9C5ABB121D5B82510019AF8D /* SAS ToolsTests.xctest */,
+				9C5ABB1D1D5B82520019AF8D /* SAS ToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C5ABB031D5B82510019AF8D /* SAS Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9C5ABB041D5B82510019AF8D /* AppDelegate.swift */,
+				9C5ABB061D5B82510019AF8D /* ViewController.swift */,
+				9C5ABB081D5B82510019AF8D /* Assets.xcassets */,
+				9C5ABB0A1D5B82510019AF8D /* Main.storyboard */,
+				9C5ABB0D1D5B82510019AF8D /* Info.plist */,
+			);
+			path = "SAS Tools";
+			sourceTree = "<group>";
+		};
+		9C5ABB151D5B82510019AF8D /* SAS ToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5ABB161D5B82520019AF8D /* SAS_ToolsTests.swift */,
+				9C5ABB181D5B82520019AF8D /* Info.plist */,
+			);
+			path = "SAS ToolsTests";
+			sourceTree = "<group>";
+		};
+		9C5ABB201D5B82520019AF8D /* SAS ToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5ABB211D5B82520019AF8D /* SAS_ToolsUITests.swift */,
+				9C5ABB231D5B82520019AF8D /* Info.plist */,
+			);
+			path = "SAS ToolsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C5ABB001D5B82510019AF8D /* SAS Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5ABB261D5B82520019AF8D /* Build configuration list for PBXNativeTarget "SAS Tools" */;
+			buildPhases = (
+				9C5ABAFD1D5B82510019AF8D /* Sources */,
+				9C5ABAFE1D5B82510019AF8D /* Frameworks */,
+				9C5ABAFF1D5B82510019AF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAS Tools";
+			productName = "SAS Tools";
+			productReference = 9C5ABB011D5B82510019AF8D /* SAS Tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C5ABB111D5B82510019AF8D /* SAS ToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5ABB291D5B82520019AF8D /* Build configuration list for PBXNativeTarget "SAS ToolsTests" */;
+			buildPhases = (
+				9C5ABB0E1D5B82510019AF8D /* Sources */,
+				9C5ABB0F1D5B82510019AF8D /* Frameworks */,
+				9C5ABB101D5B82510019AF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5ABB141D5B82510019AF8D /* PBXTargetDependency */,
+			);
+			name = "SAS ToolsTests";
+			productName = "SAS ToolsTests";
+			productReference = 9C5ABB121D5B82510019AF8D /* SAS ToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C5ABB1C1D5B82520019AF8D /* SAS ToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5ABB2C1D5B82520019AF8D /* Build configuration list for PBXNativeTarget "SAS ToolsUITests" */;
+			buildPhases = (
+				9C5ABB191D5B82520019AF8D /* Sources */,
+				9C5ABB1A1D5B82520019AF8D /* Frameworks */,
+				9C5ABB1B1D5B82520019AF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5ABB1F1D5B82520019AF8D /* PBXTargetDependency */,
+			);
+			name = "SAS ToolsUITests";
+			productName = "SAS ToolsUITests";
+			productReference = 9C5ABB1D1D5B82520019AF8D /* SAS ToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5ABAF91D5B82510019AF8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sturtevant Auto";
+				TargetAttributes = {
+					9C5ABB001D5B82510019AF8D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9C5ABB111D5B82510019AF8D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9C5ABB001D5B82510019AF8D;
+					};
+					9C5ABB1C1D5B82520019AF8D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9C5ABB001D5B82510019AF8D;
+					};
+				};
+			};
+			buildConfigurationList = 9C5ABAFC1D5B82510019AF8D /* Build configuration list for PBXProject "SAS Tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C5ABAF81D5B82510019AF8D;
+			productRefGroup = 9C5ABB021D5B82510019AF8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5ABB001D5B82510019AF8D /* SAS Tools */,
+				9C5ABB111D5B82510019AF8D /* SAS ToolsTests */,
+				9C5ABB1C1D5B82520019AF8D /* SAS ToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C5ABAFF1D5B82510019AF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5ABB091D5B82510019AF8D /* Assets.xcassets in Resources */,
+				9C5ABB0C1D5B82510019AF8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5ABB101D5B82510019AF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5ABB1B1D5B82520019AF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5ABAFD1D5B82510019AF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5ABB071D5B82510019AF8D /* ViewController.swift in Sources */,
+				9C5ABB051D5B82510019AF8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5ABB0E1D5B82510019AF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5ABB171D5B82520019AF8D /* SAS_ToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5ABB191D5B82520019AF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5ABB221D5B82520019AF8D /* SAS_ToolsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5ABB141D5B82510019AF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5ABB001D5B82510019AF8D /* SAS Tools */;
+			targetProxy = 9C5ABB131D5B82510019AF8D /* PBXContainerItemProxy */;
+		};
+		9C5ABB1F1D5B82520019AF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5ABB001D5B82510019AF8D /* SAS Tools */;
+			targetProxy = 9C5ABB1E1D5B82520019AF8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C5ABB0A1D5B82510019AF8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5ABB0B1D5B82510019AF8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C5ABB241D5B82520019AF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C5ABB251D5B82520019AF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C5ABB271D5B82520019AF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SAS Tools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sturtevantauto.SAS-Tools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C5ABB281D5B82520019AF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SAS Tools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sturtevantauto.SAS-Tools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C5ABB2A1D5B82520019AF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SAS ToolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sturtevantauto.SAS-ToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAS Tools.app/Contents/MacOS/SAS Tools";
+			};
+			name = Debug;
+		};
+		9C5ABB2B1D5B82520019AF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SAS ToolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sturtevantauto.SAS-ToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAS Tools.app/Contents/MacOS/SAS Tools";
+			};
+			name = Release;
+		};
+		9C5ABB2D1D5B82520019AF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SAS ToolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sturtevantauto.SAS-ToolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SAS Tools";
+			};
+			name = Debug;
+		};
+		9C5ABB2E1D5B82520019AF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SAS ToolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sturtevantauto.SAS-ToolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SAS Tools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5ABAFC1D5B82510019AF8D /* Build configuration list for PBXProject "SAS Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5ABB241D5B82520019AF8D /* Debug */,
+				9C5ABB251D5B82520019AF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5ABB261D5B82520019AF8D /* Build configuration list for PBXNativeTarget "SAS Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5ABB271D5B82520019AF8D /* Debug */,
+				9C5ABB281D5B82520019AF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C5ABB291D5B82520019AF8D /* Build configuration list for PBXNativeTarget "SAS ToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5ABB2A1D5B82520019AF8D /* Debug */,
+				9C5ABB2B1D5B82520019AF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C5ABB2C1D5B82520019AF8D /* Build configuration list for PBXNativeTarget "SAS ToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5ABB2D1D5B82520019AF8D /* Debug */,
+				9C5ABB2E1D5B82520019AF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5ABAF91D5B82510019AF8D /* Project object */;
+}
