@@ -475,6 +475,7 @@
 				9C5ABB281D5B82520019AF8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C5ABB291D5B82520019AF8D /* Build configuration list for PBXNativeTarget "SAS ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				9C5ABB2B1D5B82520019AF8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C5ABB2C1D5B82520019AF8D /* Build configuration list for PBXNativeTarget "SAS ToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +493,7 @@
 				9C5ABB2E1D5B82520019AF8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

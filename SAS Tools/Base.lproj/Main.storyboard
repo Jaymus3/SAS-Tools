@@ -645,16 +645,16 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SAS_Tools" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="209" y="215"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="SAS Login" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="SAS Login" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA" customClass="WindowController" customModule="SAS_Tools" customModuleProvider="target">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="372" height="430"/>
+                        <rect key="contentRect" x="175" y="400" width="263" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                     </window>
                     <connections>
@@ -663,29 +663,168 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21" y="330"/>
+            <point key="canvasLocation" x="21.5" y="420"/>
         </scene>
         <!--Login Window-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController title="Login Window" id="XfG-lQ-9wD" customClass="ViewController" customModule="SAS_Tools" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="344" height="373"/>
+                        <rect key="frame" x="0.0" y="0.0" width="270" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="42l-Ff-51i">
-                                <rect key="frame" x="14" y="88" width="316" height="32"/>
-                                <buttonCell key="cell" type="push" title="Log In" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="imK-Uu-NVD">
+                            <secureTextField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1GM-H2-LA6">
+                                <rect key="frame" x="20" y="65" width="230" height="22"/>
+                                <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Password" drawsBackground="YES" usesSingleLineMode="YES" id="WVz-Lh-VFs">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <allowedInputSourceLocales>
+                                        <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                                    </allowedInputSourceLocales>
+                                </secureTextFieldCell>
+                            </secureTextField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DXh-OT-JlE">
+                                <rect key="frame" x="14" y="13" width="242" height="32"/>
+                                <buttonCell key="cell" type="push" title="Log In" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="RwG-4D-2Rr">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <segue destination="sgf-1T-XjA" kind="show" id="kZv-za-SGD"/>
+                                </connections>
                             </button>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0kd-yq-k5a">
+                                <rect key="frame" x="20" y="97" width="230" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Username" drawsBackground="YES" id="EaI-Wb-aje">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aDP-2Z-Yd7">
+                                <rect key="frame" x="20" y="143" width="230" height="137"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Logo" id="lOd-vc-4w0"/>
+                            </imageView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="DXh-OT-JlE" id="YXg-BS-eHf"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17" y="836.5"/>
+            <point key="canvasLocation" x="21" y="812"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="2P5-G6-6ZM">
+            <objects>
+                <windowController id="sgf-1T-XjA" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="4fC-UP-gBe">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="457" y="343" width="265" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
+                    </window>
+                    <connections>
+                        <segue destination="mbt-lC-nNz" kind="relationship" relationship="window.shadowedContentViewController" id="kRs-Mw-uJf"/>
+                    </connections>
+                </windowController>
+                <customObject id="b98-0C-T8N" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="414.5" y="420"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="c3k-fn-lLh">
+            <objects>
+                <viewController id="mbt-lC-nNz" sceneMemberID="viewController">
+                    <view key="view" id="ijG-kT-KaC">
+                        <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SF0-8Z-FIP">
+                                <rect key="frame" x="18" y="265" width="245" height="26"/>
+                                <popUpButtonCell key="cell" type="push" title="Honda" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="VTB-Xm-CNE" id="ajq-jl-fY8">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="mfU-Uo-2xh">
+                                        <items>
+                                            <menuItem title="Honda" state="on" id="VTB-Xm-CNE"/>
+                                            <menuItem title="Hyundai" id="ucD-Ld-WxY"/>
+                                            <menuItem title="Dodge" id="BkV-MP-g5b"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dow-RB-kw8">
+                                <rect key="frame" x="18" y="173" width="245" height="26"/>
+                                <popUpButtonCell key="cell" type="push" title="4 DR 2.2L" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="12f-ta-aYR" id="Kb3-iK-jjJ">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="Z1V-Vt-Hce">
+                                        <items>
+                                            <menuItem title="2 DR 3.5L" id="MPh-g8-363"/>
+                                            <menuItem title="4 DR 2.2L" state="on" id="12f-ta-aYR"/>
+                                            <menuItem title="27 DR 80L DIESEL" id="h5v-yG-9be"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcf-Yo-Z8J">
+                                <rect key="frame" x="18" y="219" width="245" height="26"/>
+                                <popUpButtonCell key="cell" type="push" title="Civic" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Cdz-7k-AQH" id="K3U-T2-J6p">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="Iuj-Ta-duW">
+                                        <items>
+                                            <menuItem title="Civic" state="on" id="Cdz-7k-AQH"/>
+                                            <menuItem title="Crazy" id="W6n-jr-71V"/>
+                                            <menuItem title="Silverado 1500" id="vC7-XP-T8y"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tar-Ka-Utp">
+                                <rect key="frame" x="18" y="104" width="75" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="We pick up:" id="xfI-jE-k6A">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YOg-8o-riN">
+                                <rect key="frame" x="147" y="104" width="115" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="They bring it here:" id="7u3-Qe-fM3">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hwn-E0-57X">
+                                <rect key="frame" x="25" y="55" width="60" height="29"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="$100" id="TPZ-v4-PqK">
+                                    <font key="font" metaFont="system" size="24"/>
+                                    <color key="textColor" red="0.0" green="0.63626868375308843" blue="0.048145294426022396" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yej-WZ-fPH">
+                                <rect key="frame" x="174" y="55" width="60" height="29"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="$150" id="fwq-dO-vb0">
+                                    <font key="font" metaFont="system" size="24"/>
+                                    <color key="textColor" red="0.0" green="0.63626868380000001" blue="0.048145294429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="k62-Qi-BLV" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="417" y="812"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Logo" width="1000" height="614"/>
+    </resources>
 </document>
